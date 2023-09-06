@@ -1,0 +1,665 @@
+@font-face {
+    font-family: 'Monbaiti';
+    src: url('monbaiti.ttf') format('woff');
+}
+@font-face {
+    font-family: 'MADE Sunflower';
+    src: url('made-sunflower.woff') format('woff');
+}
+
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'made-sunflower.woff';
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'MADE Sunflower.woff';
+    
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family:'made-sunflower.woff', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Customize section styles */
+#space, #premises, #amenities, #availability, #contact {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Add this to your styles.css file */
+.navbar {
+    list-style: none;
+    display: flex;
+    background-color: #20797D;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    font-family: 'made-sunflower.woff';
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f4f4f4;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 30px; /* Adjust the logo height as needed */
+    
+}
+
+.navbar-brand span {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-item {
+    margin-left: 20px; /* Add spacing between navbar items */
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+    list-style: none; /* Remove bullets */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #f4f4f4;
+}
+/* Add this to your styles.css file */
+.header {
+    background-color: #f4f4f4; /* Set a fallback background color */
+}
+.vertical-line2{
+    display: inline-block;
+    width: 1px; /* Adjust the width of the vertical line */
+    height: 30px; /* Adjust the height of the vertical line */
+    background-color: #f5f5f5; /* Adjust the color of the vertical line */
+    margin: 0 10px; /* Adjust the margin to control the spacing between the line and adjacent items */
+}
+
+
+.contact-button {
+    display: inline-flex; /* Use flex display to center content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #ef6b0d; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 50px; /* Add rounded corners */
+    margin-top: 5px; /* Add spacing between the button and text */
+    width: 100px;
+    height: 30px;
+}
+
+.header-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    background-image: url('Asset\ 1.svg'); /* Provide the correct path to your image */
+    background-size: 100%;
+    background-position: center;
+    padding: 400px; /* Add padding to separate content from the background */
+    text-align: center;
+    color: #fff; /* Text color on the header background */
+}
+
+.header-content-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    background: #20797D; /* Background color for the box */
+    padding: 10px; /* Add padding to the content inside the box */
+    border: 1px solid #20797D; /* Add a border around the box */
+    
+    
+    position: absolute;
+    font-family: 'made-sunflower.woff', sans-serif;
+    top: 750px;
+    left: 380;
+    width: 1550px;
+    height: 200px;
+  
+
+}
+.header-content-box {
+    /* Existing styles for .header-content-box */
+    display: flex;
+    flex-direction: row; /* Display content horizontally */
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Existing styles for .horizontal-content */
+.horizontal-content {
+    display: flex;
+    flex-direction: row; /* Display content horizontally */
+    align-items: center;
+    /* border-left:2px solid white; */
+    
+}
+.text-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+.horizontal-line {
+    border: none;
+    border-top: 1px solid #fffdfd; /* Adjust color and thickness as needed */
+    margin: 10px ; /* Adjust margin as needed for spacing */
+    width: 30%; /*Adjust margin as needed for spacing */
+}
+
+/* Existing styles for .vertical-line */
+.vertical-line {
+    border-left: 1px solid white;
+    height: 40%;
+    margin-right: 20px; /* Adjust the margin as needed */
+    align-items: center;
+}
+
+.divider {
+    text-align: center;
+    position: relative;
+    
+}
+
+.line {
+    border-top: 1px solid #fcf5f5; /* Adjust color and thickness as needed */
+    width: 60%; /* Adjust the line width as needed */
+    margin: 10px auto; /* Adjust margin as needed for spacing */
+}
+
+
+
+
+/* Add this to your styles.css file */
+#space {
+    display: flex; /* Use flexbox to arrange items side by side */
+    justify-content: space-between; /* Space the items evenly */
+    align-items: center; /* Center vertically */
+    padding: 150px; /* Add spacing around the section */
+    
+}
+
+.hr-lines{
+    display: flex;
+    position: relative;
+    max-width: 850px;
+    margin:50px auto;
+    text-align: left ;
+    
+  }
+.hr-lines:after{
+    display: flex;
+    content:" ";
+    height: 12px;
+    width: 160px;
+    background: #20797D;
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    
+    
+  }
+  
+
+.left-side {
+    flex: 1; /* Allow the left side to grow and fill available space */
+    margin-right: 150px ;
+}
+
+.right-side {
+    flex: 10; /* Allow the right side to grow and fill available space */
+    text-align: right; /* Align the content to the right */
+
+}
+
+.right-side img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: fit-content; /* Maintain the image's aspect ratio */
+    max-height: fit-content;
+    height: fit-content;
+     width: fit-content; 
+    
+  
+    /* background-color: #ef6b0d; */
+    background-color: transparent;
+    /* box-shadow: 15px 0 0 0 rgb(255, 102, 0), 18px 18px 0 4px rgb(255, 255, 255);shadow */
+    box-shadow: 20px -20px 0px 0px #ef6b0d;
+}
+
+
+/* Add this to your styles.css file */
+#premises {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150spx;
+}
+
+
+
+.left-side, .right-side {
+    flex-basis: 48%; /*Adjust the width as needed ; */
+}
+
+.right-side h2 {
+    margin-top: 100;
+}
+
+.right-side ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.left-side img {
+    max-width: 100%;
+    max-height: fit-content;
+    height: auto;
+   
+    
+    /* background-color: #ef6b0d; */
+    background-color: transparent;
+    box-shadow: -20px 20px 0px 0px #ef6b0d;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120%; /* Set the desired height */
+    width: 100%; /* Set the desired width */
+}
+
+.centered-image img {
+    max-width: 120%;
+    max-height: 120%;
+    
+}
+
+
+/* Add this CSS code to your styles.css file */
+div ul li img {
+    width: 1000px; /* Set the desired width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+/* Add this to your styles.css file */
+
+
+/* Add this CSS code to your styles.css file */
+#amenities {
+    background-color: #ef6b0d; /* Background color for the section */
+    padding: 20px; /* Add some padding to the section */
+
+    /* Center the content horizontally and vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.amenities-list {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+}
+
+.amenities-list li {
+    font-size: 16px; /* Font size for amenity items */
+    margin: 10px 0; /* Add vertical spacing between items */
+}
+
+.amenities-list i {
+    margin-right: 10px; /* Add space between the icon and text */
+    font-size: 24px; /* Adjust the icon size as needed */
+}
+/* Style the amenities section */
+.amenities-section {
+    background-color: #ef6b0d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the section title */
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Style the rows of amenity cards */
+  .amenities-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Style individual amenity cards */
+  .amenity-card {
+    background-color: #ef6b0d; /* Set the card background color */
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style amenity images */
+  .amenity-card img {
+    max-width: 150px; /* Reduce the image size as needed */
+    max-height: 150px; /* Reduce the image size as needed */
+    display: block; /* Ensure the image is on its own line */
+    margin: 0 auto 10px; /* Center the image and add space below */
+    background-color: transparent; /* Remove the background color */
+    border-radius: 0; /* Remove the roundness */
+  }
+  
+  /* Style amenity names */
+  .amenity-name {
+    font-size: 16px;
+    color: white; /* Set the text color to white */
+  }
+
+
+
+/* Add this CSS code to your styles.css file */
+.availability-list {
+    list-style-type: none; /* Remove list bullets */
+    padding: 0;
+    
+}
+
+.availability-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0; /* Add vertical spacing between items */
+    text-align: center;
+}
+
+.availability-item img {
+    width: 120px; /* Adjust the image width as needed */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-bottom: 10px; /* Add space between the image and text */
+}
+
+.availability-item h3 {
+    font-size: 18px; /* Font size for amenity names */
+    margin: 10px 0; /* Add spacing around the amenity name */
+}
+
+.availability-item p {
+    font-size: 14px; /* Font size for amenity descriptions */
+}
+
+/* Add this CSS code to your styles.css file */
+.book-now-button {
+    display: inline-block;
+    background-color: #ef6b0d; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 5px 50px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 50px; /* Add rounded corners */
+    margin-top: 10px; /* Add spacing between the button and text */
+    
+}
+.book-now-button:hover {
+    background-color: #ef6b0d; /* Button background color on hover */
+
+}
+.availability-container {
+    display: flex; /* Display children in a row */
+    flex-wrap: wrap; /* Allow wrapping to the next row if the screen is too narrow */
+}
+
+.column {
+    flex: 1; /* Make each column occupy equal horizontal space */
+    padding: 20px; /* Add some spacing between columns */
+    
+    margin: 10px; /* Add margin around each column */
+    text-align: left; /* Center-align the content within columns */
+}
+
+/* Style the image inside the column */
+.column img {
+    max-width: 100%; /* Ensure images don't exceed the column width */
+}
+
+/* Style the headings */
+.column h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Style the paragraph text */
+.column p {
+    font-size: 0.9em;
+    margin: 10px 0;
+}
+
+
+
+/* Add this CSS code to your styles.css file */
+
+footer {
+    background-color: #20797D;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Style the left footer section */
+.left-footer {
+    flex: 1;
+    max-width: 250px;
+    text-align: left;
+}
+
+/* Style the social icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Style the center footer section */
+.center-footer, .right-center-footer {
+    flex: 1;
+    max-width: 200px;
+    text-align: left;
+}
+
+/* Style the footer menu */
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 10px;
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the right-center footer section */
+.right-center-footer {
+    text-align: left;
+}
+
+/* Style the right footer section */
+.right-footer {
+    flex: 1;
+    max-width: 250px;
+    text-align: left;
+}
+
+.social-icons {
+    margin-top: 20px; /* Add spacing between other footer content and social icons */
+    display: flex;
+    justify-content: left;
+}
+
+.social-icons .icon {
+    width: 40px; 
+    height: 40px;
+    font-size: 20px; /* Adjust the icon size as needed */
+    margin-right: 20px; /* Add spacing between icons */
+    color: #ffffff; /* Icon color (change to your preferred color) */
+    text-decoration: none; /* Remove underlines from the links */
+    border-radius: 200%;
+    display: flex;
+    justify-content: center;
+    background-color: #ef6b0d;
+    margin-right: 20px;
+    align-items: center;
+    transition: color 0.9s ease; /* Smooth color transition on hover */
+}
+
+.social-icons .icon:hover {
+    color: #ffffff; /* Icon color on hover (change to your preferred hover color) */
+}
+
+/* Add this CSS code to your styles.css file */
+
+.rounded-input {
+    border-radius: 20px; /* Adjust the border radius to control the roundness */
+    padding: 10px; /* Add padding to the input field for spacing */
+    background-color: #20797D;
+    border: 2px solid #ffffff; 
+    
+}
+
+.rounded-input::placeholder {
+    color: #ffffff; /* Add your desired color for the placeholder text */
+}
+
+.left-footer{
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.center-footer{
+    flex: 0;
+    text-align: center;
+}
+
+
+.right-footer {
+    flex: 1;
+    text-align: left;
+    
+    
+}
+.send-button {
+    display: inline-block;
+    background-color: #ef6b0d; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px; /* Add rounded corners */
+    width: 150px ;
+    margin-top: 10px; /* Add spacing between the button and text */
+    
+}
+
+/* Add this CSS code to your styles.css file */
+
+/* Style for the horizontal line */
+.footer-divider {
+    border-top: 1px solid #ccc; /* Adjust the color and thickness as needed */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.horizontal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center; /* Center-align the paragraph text */
+    
+}
+
+.horizontal-content p {
+    margin: 0 10px;
+}
+
+
+.location-button {
+    background-color: #ef6b0d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
